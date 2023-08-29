@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffdef;
+    color: #0e0e0e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 4rem;
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #145344;
+    font-size: 5rem;
+}
+
+p {
+    line-height: 2;
+}
+
+main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 15vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+}
+
+header {
+    height: 10vh;
+    background-color: #2e718b;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+    position: absolute;
+    width: 100vw;
+    box-sizing: border-box;
+    top: 0;
+}
+
+header > a {
+    display: inline-block;
+    color: #f4f4f4;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+header > a:first-child {
+    flex-grow: 1;
+}
+
+.one,
+.two {
+    padding: 2em;
+    width: 80vw;
+}
+
+.one {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#welcome {
+    margin-bottom: 3em;
+}
+
+form {
+    background-color: #2e718b;
+    padding: 2em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-flow: column;
+    gap: 2em;
+    color: #f4f4f4;
+}
+
+input,
+select,
+textarea {
+    padding: 1em;
+}
+
+#detail {
+    height: 5em;
+    overflow: scroll;
+}
+
+input[type=submit] {
+
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    border: 2px solid #0e0e0e;
+}
+
+.user {
+    padding: 1em;
+    background-color: #ccc;
+    grid-column: 1;
+}
+
+.appointments {
+    padding: 1em;
+    grid-column: 2;
+}
+
+footer {
+    background-color: #2e718b;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    gap: 1em;
+    padding: 3em;
+    box-sizing: border-box;
+    align-items: center;
+    color: #f4f4f4;
+}
+footer > div {
+    text-align: center;
+    flex-grow: 1;
+    line-height: 2;
+}
+
+.line {
+    flex-grow: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #f4f4f4;
+}
